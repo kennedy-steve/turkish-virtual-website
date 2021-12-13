@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Turkish Virtual Airline',
   tagline: 'flying on Infinite Flight',
-  url: 'https://kennedy-steve.github.io/turkish-virtual-website',
-  baseUrl: '/',
+  url: 'https://kennedy-steve.github.io/',
+  baseUrl: 'turkish-virtual-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
