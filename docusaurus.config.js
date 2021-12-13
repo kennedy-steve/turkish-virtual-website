@@ -50,11 +50,28 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'operations/fleet',
-            position: 'left',
-            activeBasePath: 'src/pages/operations',
+            type: 'dropdown',
             label: 'Operations',
+            position: 'left',
+            items: [
+              {
+                label: 'Fleet',
+                href: '/operations/fleet',
+              },
+              {
+                label: 'Routes',
+                href: '/operations/routes',
+              },
+              {
+                label: 'Ranks',
+                href: '/operations/ranks',
+              },
+              {
+                label: 'Hubs',
+                href: '/operations/hubs',
+              },
+              // ... more items
+            ],
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
