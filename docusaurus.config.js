@@ -49,6 +49,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/about-us', label: 'About Us', position: 'left'},
           {
             type: 'dropdown',
             label: 'Operations',
