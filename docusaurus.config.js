@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Turkish Virtual Airline',
+  title: 'Turkish Virtual Airlines',
   tagline: 'flying on Infinite Flight',
-  url: 'https://kennedy-steve.github.io',
-  baseUrl: '/turkish-virtual-website/',
+  url: 'https://turkishvirtual.tisuela.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
