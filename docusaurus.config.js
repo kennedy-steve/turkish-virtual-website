@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Turkish Virtual Airline',
   tagline: 'flying on Infinite Flight',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kennedy-steve.github.io/turkish-virtual-website',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kennedy-steve', // Usually your GitHub org/user name.
+  projectName: 'turkish-virtual-website', // Usually your repo name.
 
   presets: [
     [
