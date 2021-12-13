@@ -86,11 +86,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Operations',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Fleet',
+                to: '/operations/fleet',
               },
             ],
           },
