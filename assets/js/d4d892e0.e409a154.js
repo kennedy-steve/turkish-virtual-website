@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkturkish_virtual=self.webpackChunkturkish_virtual||[]).push([[251],{5231:function(e){e.exports=JSON.parse('{"permalink":"turkish-virtual-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

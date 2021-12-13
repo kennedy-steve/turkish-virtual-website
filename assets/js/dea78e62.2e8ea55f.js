@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkturkish_virtual=self.webpackChunkturkish_virtual||[]).push([[855],{6109:function(s){s.exports=JSON.parse('{"allTagsPath":"turkish-virtual-website/blog/tags","slug":"turkish-virtual-website/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"turkish-virtual-website/blog/tags/docusaurus"}')}}]);
