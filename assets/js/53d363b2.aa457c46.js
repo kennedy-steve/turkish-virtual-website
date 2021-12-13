@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkturkish_virtual=self.webpackChunkturkish_virtual||[]).push([[277],{7714:function(t){t.exports=JSON.parse('{"allTagsPath":"/turkish-virtual-website/blog/tags","slug":"/turkish-virtual-website/blog/tags/hello","name":"hello","count":2,"permalink":"/turkish-virtual-website/blog/tags/hello"}')}}]);
