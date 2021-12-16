@@ -13,7 +13,7 @@ const TurkishAirlines737Max8: PlaneCardItem = {
         <>
             It's a cool plane dude.
         </>
-    ),	
+    ),
     imageUrl: '/img/fleet/turkish-airlines-boeing-737-max-8.png',
 }
 
