@@ -1,0 +1,44 @@
+import React from 'react';
+
+import {
+    PlaneCardItem,
+    PlaneCards
+} from '../PlaneCards';
+
+const TurkishAirlines737Max8: PlaneCardItem = {
+    model: '737 Max 8',
+    make: 'Boeing',
+    livery: "Turkish Airlines",
+    description: (
+        <>
+            It's a cool plane dude.
+        </>
+    ),	
+    imageUrl: '/img/fleet/turkish-airlines-boeing-737-max-8.png',
+}
+
+const InsertPlaneHere: PlaneCardItem = {
+    model: '999',
+    make: 'McDonalds',
+    livery: 'UpdogAirlines',
+    description: (
+        <>
+            McPlane goes floosh.
+        </>
+    ),
+    imageUrl: '/img/fleet/updog-airlines-md-999.png',
+}
+
+
+const PlaneCardList: PlaneCardItem[] = [
+    TurkishAirlines737Max8,
+    InsertPlaneHere,
+    InsertPlaneHere,
+    InsertPlaneHere,
+    InsertPlaneHere,
+    InsertPlaneHere,
+]
+
+export default function TurkishAirlinesCards(){
+    return PlaneCards(PlaneCardList);
+}
