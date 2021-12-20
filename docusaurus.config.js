@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Turkish Virtual Airlines',
+  title: 'Turkish Airlines Virtual',
   tagline: 'flying on Infinite Flight',
   url: 'https://turkishvirtual.tisuela.com',
   baseUrl: '/',
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Turkish Virtual Airline',
+        title: 'Turkish Airlines Virtual',
         logo: {
-          alt: 'Turkish Virtual Logo',
+          alt: 'Turkish Airlines Virtual Logo',
           src: 'img/logo.svg',
         },
         items: [
