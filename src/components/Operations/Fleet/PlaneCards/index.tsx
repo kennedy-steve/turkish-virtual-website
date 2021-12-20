@@ -6,7 +6,10 @@ export type PlaneCardItem = {
     model: string,
     make: string,
     livery: string,
-    description: JSX.Element,
+    range: number,
+    cargo?: number,
+    seats?: number,
+    description?: JSX.Element,
     imageUrl: string,
 }
 

@@ -9,6 +9,8 @@ const TurkishAirlines737Max8: PlaneCardItem = {
     model: '737 Max 8',
     make: 'Boeing',
     livery: "Turkish Airlines",
+    range: 3550,
+    seats: 210,
     description: (
         <>
             It's a cool plane dude.
@@ -21,6 +23,8 @@ const InsertPlaneHere: PlaneCardItem = {
     model: '999',
     make: 'McDonalds',
     livery: 'UpdogAirlines',
+    range: 9999,
+    seats: 2,
     description: (
         <>
             McPlane goes floosh.
