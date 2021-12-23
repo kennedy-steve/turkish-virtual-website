@@ -27,27 +27,27 @@ function StaffCard({
     ifcUsername,
     imageSrc,
     avatarSize,
-    }: StaffCardItem
+    }: StaffCardItem,
 ) {
     return (
-        <div className="col col--4">
-            <div className={styles.staffCard}>
-                <div className="avatar">
-                    <a
-                        className={clsx('avatar__photo-link avatar__photo', avatarSize)}
-                        href={getInfiniteFlightCommunityProfile(ifcUsername)}
-                    >
-                        <img
-                        alt={name}
-                        src= {imageSrc}
-                        />
-                    </a>
-                    <div className="avatar__intro">
-                        <div className="avatar__name">{name} - {position}</div>
-                        <small className="avatar__subtitle">
-                            {bio}
-                        </small>
-                    </div>
+        <div className={styles.staffCard}>
+            <div className="avatar">
+                <a
+                    className={clsx('avatar__photo-link avatar__photo', avatarSize)}
+                    href={getInfiniteFlightCommunityProfile(ifcUsername)}
+                >
+                    <img
+                    alt={name}
+                    src= {imageSrc}
+                    />
+                </a>
+                <div className="avatar__intro">
+                    <div className="avatar__name">{name}</div>
+                    <small className="avatar__subtitle">
+                        <i>{position}</i>
+                        <br/>
+                        {bio}
+                    </small>
                 </div>
             </div>
         </div>
@@ -55,22 +55,26 @@ function StaffCard({
 }
 
 export function StaffCards(
-    staffCardList: StaffCardItem[]
+    staffCardList: StaffCardItem[],
+    columns: string = 'col col--4'
 ) {
     return (
         
         <section className={styles.partnerCards}>
             <div className="row">
                 {staffCardList.map(card => (
-                    <StaffCard
-                        name={card.name}
-                        position={card.position}
-                        started={card.started}
-                        bio={card.bio}
-                        ifcUsername={card.ifcUsername}
-                        imageSrc={card.imageSrc}
-                        avatarSize={card.avatarSize}
-                    />
+                    <div className={columns}>
+                        <StaffCard
+                            name={card.name}
+                            position={card.position}
+                            started={card.started}
+                            bio={card.bio}
+                            ifcUsername={card.ifcUsername}
+                            imageSrc={card.imageSrc}
+                            avatarSize={card.avatarSize}
+                            key={card.ifcUsername}
+                        />
+                    </div>
                 ))}
             </div>
         </section>
