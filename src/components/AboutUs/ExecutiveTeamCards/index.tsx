@@ -5,27 +5,45 @@ import {
     StaffCards,
 } from '../StaffCards';
 
+
 const ChiefExecutiveOfficer: StaffCardItem = {
     name: 'Ran',
     position: 'Chief Executive Officer',
-    started: 'January 2020',
+    started: 'Sometember 2020',
     bio: (
         <>
-            Ran is cool
+            Ran is cool, cool, cool. Yep. Filler text.
         </>
     ),
     ifcUsername: 'ran',
     imageSrc: '/img/about-us/ran.png',
-    avatarSize: 'avatar__photo--lg',   
+    avatarSize: 'avatar__photo--xl',   
+};
+
+const ChiefOperatingOfficer: StaffCardItem = {
+    name: 'Bosnia',
+    position: 'Chief Operating Officer',
+    started: 'Sometember 2020',
+    bio: (
+        <>
+            Bosnia is cool, cool, cool. Yep. Filler text.
+        </>
+    ),
+    ifcUsername: 'Cpt_Bosnia',
+    imageSrc: '/img/about-us/ran.png',
+    avatarSize: 'avatar__photo--xl',   
 };
 
 const ExecutiveTeamCardList: StaffCardItem[] = [
     ChiefExecutiveOfficer,
+    ChiefOperatingOfficer,
     ChiefExecutiveOfficer,
-    ChiefExecutiveOfficer,
-    ChiefExecutiveOfficer,
+    ChiefOperatingOfficer,
 ];
 
 export default function ExecutiveTeamCards() {
-    return StaffCards(ExecutiveTeamCardList);
+    return StaffCards(
+        ExecutiveTeamCardList,
+        'col col--6',
+    );
 }
