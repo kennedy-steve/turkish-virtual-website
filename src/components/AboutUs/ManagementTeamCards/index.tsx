@@ -19,7 +19,7 @@ const ChiefExecutiveOfficer: StaffCardItem = {
     ),
     ifcUsername: 'ran',
     imageSrc: '/img/about-us/ran.png',
-    avatarSize: avatarSizeForManagementTeam,   
+    avatarSize: avatarSizeForManagementTeam,
 };
 
 const ChiefOperatingOfficer: StaffCardItem = {
@@ -33,7 +33,7 @@ const ChiefOperatingOfficer: StaffCardItem = {
     ),
     ifcUsername: 'Cpt_Bosnia',
     imageSrc: '/img/about-us/ran.png',
-    avatarSize: avatarSizeForManagementTeam,   
+    avatarSize: avatarSizeForManagementTeam,
 };
 
 const ManagementTeamCardList: StaffCardItem[] = [
