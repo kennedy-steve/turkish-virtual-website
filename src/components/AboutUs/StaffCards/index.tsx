@@ -30,7 +30,7 @@ function StaffCard({
     }: StaffCardItem,
 ) {
     return (
-        <div className={styles.staffCard}>
+        <div className={clsx(styles.staffCard, 'shadow--md')}>
             <div className="avatar">
                 <a
                     className={clsx('avatar__photo-link avatar__photo', avatarSize)}
