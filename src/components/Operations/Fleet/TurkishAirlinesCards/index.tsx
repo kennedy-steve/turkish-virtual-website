@@ -30,7 +30,7 @@ const InsertPlaneHere: PlaneCardItem = {
             McPlane goes floosh.
         </>
     ),
-    imageUrl: '/img/fleet/updog-airlines-md-999.png',
+    imageUrl: '/img/fleet/Turkish-Airlines-Boeing-787-9.jpeg',
 }
 
 
