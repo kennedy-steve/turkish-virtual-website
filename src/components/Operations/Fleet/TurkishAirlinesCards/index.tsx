@@ -6,7 +6,7 @@ import {
 } from '../PlaneCards';
 
 const TurkishAirlines737Max8: PlaneCardItem = {
-    model: '737 Max 8',
+    model: '737 Max1',
     make: 'Boeing',
     livery: "Turkish Airlines",
     range: 3550,

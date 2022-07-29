@@ -9,7 +9,7 @@ import {
 const avatarSizeForManagementTeam = 'avatar__photo--lg';
 
 const ChiefExecutiveOfficer: StaffCardItem = {
-    name: 'Ran',
+    name: 'Ben',
     position: 'Chief Executive Officer',
     started: 'Sometember 2020',
     bio: (

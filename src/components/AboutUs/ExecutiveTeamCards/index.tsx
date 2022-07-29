@@ -9,12 +9,12 @@ import {
 const avatarSizeForExecutiveTeam = 'avatar__photo--xl';
 
 const ChiefExecutiveOfficer: StaffCardItem = {
-    name: 'Ran',
+    name: 'Ben',
     position: 'Chief Executive Officer',
     started: 'Sometember 2020',
     bio: (
         <>
-            Ran is cool, cool, cool. Yep. Filler text.
+         is cool, cool, cool. Yep. Filler text.
         </>
     ),
     ifcUsername: 'ran',
@@ -24,7 +24,7 @@ const ChiefExecutiveOfficer: StaffCardItem = {
 
 const ChiefOperatingOfficer: StaffCardItem = {
     name: 'Bosnia',
-    position: 'Chief Operating Officer',
+    position:  'Operating Officer',
     started: 'Sometember 2020',
     bio: (
         <>
